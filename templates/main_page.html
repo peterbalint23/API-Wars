@@ -1,0 +1,35 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <nav class="navbar  navbar-inverse bg-inverse">
+        <div class="container">
+            <div class="row justify-content-around">
+                <a class="navbar-brand" href="/">Planet list</a>
+                <a class="navbar-brand" href="/">Voting statisctics</a>
+                <a class="navbar-brand" href="/">Registration</a>
+                <a class="navbar-brand" href="/">Login</a>
+                <a class="navbar-brand" href="/">Logout</a>
+                <a class="navbar-brand" href="/">Signed in as</a>
+            </div>
+        </div>
+    </nav>
+    <h1>Star Wars universe planets</h1>
+    <button type="button" class="btn btn-primary">Previous</button>
+    <button type="button" class="btn btn-primary">Next</button><br><br>
+    <table class="table table-bordered table-sm">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Diameter</th>
+            <th>Climate</th>
+            <th>Terrain</th>
+            <th>Surface Water Percentage</th>
+            <th>Population</th>
+            <th>Residents</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+{% endblock %}
